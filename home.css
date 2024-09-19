@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    min-height: 100vh;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+    padding: 10px;
+    border-bottom: 2px solid #e0e0e0;
+    padding: 15px;
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; 
+    z-index: 1000;
+}
+
+.navbar .cartlodo {
+    display: flex;
+    align-items: center;
+}
+.navbar .cartlodo  img {
+    height:45px; 
+    margin-right:3px;
+}
+.searchbar {
+    position: relative;
+    flex-grow: 1;
+    margin: 0 10px;
+}
+.searchbar input {
+    width: 100%;
+    padding: 10px 20px 10px 40px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+.searchbar .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 25px;
+    width: 25px;
+    opacity: 0.5;
+}
+.navbar .usershop-icon {
+    display: flex;
+    align-items: center;
+}
+.navbar .usershop-icon img {
+    height: 24px;
+    margin-left: 20px;
+}
+#f1{
+    background-color:white;
+    margin-top:5px;
+    width: 100%;
+    position: fixed;
+    top: 70px; 
+    left: 0;
+    right: 0;
+    padding: 15px;
+    box-sizing: border-box; 
+    flex: 1;
+   
+}
+section{
+    margin-top:150px;
+}
+#move{
+    text-align: center;
+    opacity: 0.5;
+}
+.pick{
+    text-decoration: none;
+    color: gray; 
+}
+ul,li{
+    display: inline-block;
+    padding-right:30px;
+    margin-bottom: 5px;
+}
+.pick:active{
+    color: black;
+}
+.pick :visited{
+    color: salmon;
+}
+#vivo,#moto,#iq,#motoe,#white,#black,#blackp,#brownp,#hp,#dell,#lenovo,#apple,#key,#mouse,#trim1,#trim2,#ref,#mix,#ts{
+    height:100px;
+}
+th{
+    color:grey;
+    text-align: center;
+    display: flex;
+
+}
+table,tr,td{
+    margin-top: 10px;
+    margin-right: 3px;
+}
+table{
+    padding: 10px;
+    display: flex;
+    display: inline-flex;
+}
+td{
+    text-align: center;
+    height:200px;
+    width: 200px;
+    border: 10px solid salmon;
+    border-collapse:none;
+    background-color:lightpink;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px ;
+}
+button{
+    color: white;
+    background-color: black;
+    width: 80px;
+    height: 30px;
+    border-radius:10px;
+    box-shadow: #ccc;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.mobile,#fs{
+ 
+   display: inline-flex;
+   height: 500px;
+   width: 500p;
+}
+#sr{
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.fashions{
+    height: 200px;
+     width: 200px;
+    padding:20px;
+    margin:20px;
+    border-collapse: none;
+}
+#er{
+    display: flex;
+}
+#lr{
+    display: flex;
+}
+footer .pick{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:gray;
+    color:black;
+    text-align: center;
+    padding: 10px 0;
+}
