@@ -293,7 +293,7 @@ button{
     color: greenyellow;
 }
 .line{
-    text-decoration:line-through black;
-    color:red;
+    text-decoration:line-through green 2px;
+    color:greenyellow;
     font-weight:bolder;
 }
